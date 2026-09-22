@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050506">
+<title>ELEVEN EMPIRE — Luxury Fitness Club</title>
+<meta name="description" content="Eleven Empire — Pakistan's most luxurious fitness club. Premium equipment, elite trainers, 24/7 access. Join online today.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div id="preloader">
+  <div class="pl-logo">ELEVEN EMPIRE</div>
+  <div class="pl-bar"><span id="plBar"></span></div>
+  <div class="pl-txt">Loading Experience</div>
+</div>
+
+<!-- ============ CURSOR ============ -->
+<div class="cur-dot" id="curDot"></div>
+<div class="cur-ring" id="curRing"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo" data-cursor>
+      <span class="logo-mark">EE</span>
+      <span class="logo-text">ELEVEN<em>EMPIRE</em></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#pricing">Membership</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#join" class="btn btn-gold btn-sm" data-cursor>Join Now</a>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#programs">Programs</a>
+  <a href="#trainers">Trainers</a>
+  <a href="#pricing">Membership</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+  <div class="mm-foot">
+    <a href="#join" class="btn btn-gold btn-sm">Join Now</a>
+    <a href="https://wa.me/923001234567" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">WhatsApp</a>
+  </div>
+</div>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-inner">
+    <div class="hero-badge"><i></i> Now Open 24/7 &nbsp;·&nbsp; Lahore · Karachi · Islamabad</div>
+    <h1>
+      <span class="ln"><span style="animation-delay:.15s">FORGE YOUR</span></span>
+      <span class="ln"><span class="gold-text" style="animation-delay:.3s">LEGACY</span></span>
+      <span class="ln"><span style="animation-delay:.45s">NOT EXCUSES</span></span>
+    </h1>
+    <p class="lead">
+      Pakistan's most luxurious fitness destination. Elite equipment, world-class coaches,
+      and an atmosphere engineered for people who refuse to be average.
+    </p>
+    <div class="hero-actions">
+      <a href="#join" class="btn btn-gold btn-lg" data-cursor>
+        Start Membership
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="#programs" class="btn btn-ghost btn-lg" data-cursor>Explore Programs</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat"><b class="gold-text" data-count="12500" data-suffix="+">0</b><span>Active Members</span></div>
+      <div class="hstat"><b class="gold-text" data-count="45" data-suffix="+">0</b><span>Elite Coaches</span></div>
+      <div class="hstat"><b class="gold-text" data-count="320" data-suffix="+">0</b><span>Machines</span></div>
+      <div class="hstat"><b class="gold-text" data-count="24" data-suffix="/7">0</b><span>Open Hours</span></div>
+    </div>
+  </div>
+  <div class="scroll-cue"><i></i>Scroll</div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee">
+  <div class="marquee-track" id="marquee">
+    <span>Strength</span><span>Conditioning</span><span>Hypertrophy</span><span>CrossFit</span>
+    <span>Boxing</span><span>Yoga</span><span>Recovery</span><span>Nutrition</span>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="sec" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-visual rv-l">
+        <div class="about-img">
+          <div class="about-tag"><b class="gold-text">12+</b><span>Years of Excellence</span></div>
+        </div>
+      </div>
+      <div class="about-copy">
+        <span class="eyebrow rv">About Iron Empire</span>
+        <h3 class="rv">More Than A Gym.<br>A <span class="serif-it gold-text">Brotherhood</span>.</h3>
+        <p class="rv">
+          Since 2013, Eleven Empire has redefined what a fitness club can be. We built a space where
+          premium German-engineered equipment meets an atmosphere of relentless ambition — where
+          beginners become athletes and athletes become legends.
+        </p>
+        <p class="rv">
+          Every detail, from our 4K immersive cardio theatres to our recovery spa and certified
+          nutrition lab, exists for one purpose: your transformation.
+        </p>
+        <div class="feat-list">
+          <div class="feat rv">
+            <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6.5 6.5h11v11h-11z"/><path d="M3 9v6M21 9v6M9 3h6M9 21h6"/></svg></div>
+            <div><h4>German-Engineered Equipment</h4><p>320+ machines from Hammer Strength, Technogym &amp; Rogue.</p></div>
+          </div>
+          <div class="feat rv">
+            <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></div>
+            <div><h4>Certified Elite Coaches</h4><p>45+ internationally certified trainers with personalised programming.</p></div>
+          </div>
+          <div class="feat rv">
+            <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.1-6.3-4.6L5.7 21 8 14 2 9.4h7.6z"/></svg></div>
+            <div><h4>Luxury Recovery Spa</h4><p>Sauna, steam, ice bath, massage therapy &amp; physiotherapy on-site.</p></div>
+          </div>
+          <div class="feat rv">
+            <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div><h4>Nutrition &amp; Supplement Lab</h4><p>In-house dietitians, body-composition scans &amp; custom meal plans.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROGRAMS (HORIZONTAL SCROLL) ============ -->
+<section class="hscroll" id="programs">
+  <div class="hscroll-sticky">
+    <div class="hs-head wrap">
+      <span class="eyebrow">Our Programs</span>
+      <h2 class="sec-title">Train Like A <span class="gold-text">Pro</span></h2>
+      <p class="sec-sub">Eight elite disciplines. One destination. Scroll to explore →</p>
+    </div>
+    <div class="hs-track" id="hsTrack">
+
+      <article class="pcard" style="--img:url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=80')">
+        <div class="pc-body">
+          <div class="pc-num">01 / STRENGTH</div>
+          <h3>Strength &amp; Power</h3>
+          <p>Progressive overload programming with Olympic platforms, deadlift zones and squat cages.</p>
+          <span class="pc-link">Explore <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="pcard" style="--img:url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1000&q=80')">
+        <div class="pc-body">
+          <div class="pc-num">02 / CONDITIONING</div>
+          <h3>HIIT &amp; Conditioning</h3>
+          <p>45-minute metabolic burners designed to torch fat and build elite engine capacity.</p>
+          <span class="pc-link">Explore <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="pcard" style="--img:url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1000&q=80')">
+        <div class="pc-body">
+          <div class="pc-num">03 / HYPERTROPHY</div>
+          <h3>Bodybuilding</h3>
+          <p>Science-based muscle building with weekly InBody scans and macro coaching.</p>
+          <span class="pc-link">Explore <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="pcard" style="--img:url('https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&w=1000&q=80')">
+        <div class="pc-body">
+          <div class="pc-num">04 / ARENA</div>
+          <h3>CrossFit Box</h3>
+          <p>Full WOD arena with rigs, sleds, rowers and a community that pushes you harder.</p>
+          <span class="pc-link">Explore <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="pcard" style="--img:url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1000&q=80')">
+        <div class="pc-body">
+          <div class="pc-num">05 / MOBILITY</div>
+          <h3>Yoga &amp; Mobility</h3>
+          <p>Restore range, fix posture and build a bulletproof core in our heated studio.</p>
+          <span class="pc-link">Explore <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="pcard" style="--img:url('https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1000&q=80')">
+        <div class="pc-body">
+          <div class="pc-num">06 / COMBAT</div>
+          <h3>Boxing &amp; MMA</h3>
+          <p>Full-size ring, 20 heavy bags and pro fighters coaching footwork, power and defence.</p>
+          <span class="pc-link">Explore <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="pcard" style="--img:url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1000&q=80')">
+        <div class="pc-body">
+          <div class="pc-num">07 / 1-ON-1</div>
+          <h3>Personal Training</h3>
+          <p>Dedicated coach, custom periodised plan, weekly check-ins and 24/7 WhatsApp support.</p>
+          <span class="pc-link">Explore <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="pcard" style="--img:url('https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=1000&q=80')">
+        <div class="pc-body">
+          <div class="pc-num">08 / ENDURANCE</div>
+          <h3>Cardio Theatre</h3>
+          <p>4K immersive screens, curved treadmills, air bikes and stair climbers.</p>
+          <span class="pc-link">Explore <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+    </div>
+    <div class="hs-progress"><i id="hsProgress"></i></div>
+  </div>
+</section>
+
+<!-- ============ TRAINERS ============ -->
+<section class="sec" id="trainers">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow rv">The Coaches</span>
+      <h2 class="sec-title rv">Meet The <span class="gold-text">Elite</span></h2>
+      <p class="sec-sub rv">World-class certifications. Years of real-world experience. Coaches who actually care about your progress.</p>
+    </div>
+    <div class="trainers-grid">
+
+      <article class="tcard rv-s" data-tilt>
+        <div class="tcard-img" style="background-image:url('https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=800&q=80')"></div>
+        <div class="tcard-body">
+          <span>Head Strength Coach</span>
+          <h3>Bilal Ahmed</h3>
+          <p>NSCA-CSCS · 11 years · Powerlifting national champion.</p>
+          <div class="tcard-soc">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+            <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.4.7-.4h.5c.2 0 .4-.1.7.5l.9 2.1c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.3.6 1.1 1.3 1.8.9.8 1.7 1 2 1.2.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 1c.3.2.5.2.6.4.1.1.1.9-.1 1.6z"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="tcard rv-s" data-tilt>
+        <div class="tcard-img" style="background-image:url('https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=800&q=80')"></div>
+        <div class="tcard-body">
+          <span>HIIT &amp; Conditioning</span>
+          <h3>Ayesha Khan</h3>
+          <p>ACE-CPT · 8 years · Former national sprinter &amp; fat-loss specialist.</p>
+          <div class="tcard-soc">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+            <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.4.7-.4h.5c.2 0 .4-.1.7.5l.9 2.1c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.3.6 1.1 1.3 1.8.9.8 1.7 1 2 1.2.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 1c.3.2.5.2.6.4.1.1.1.9-.1 1.6z"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="tcard rv-s" data-tilt>
+        <div class="tcard-img" style="background-image:url('https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?auto=format&fit=crop&w=800&q=80')"></div>
+        <div class="tcard-body">
+          <span>Bodybuilding Coach</span>
+          <h3>Hamza Raza</h3>
+          <p>IFBB Pro Card · 14 years · 3× Mr. Pakistan finalist.</p>
+          <div class="tcard-soc">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+            <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.4.7-.4h.5c.2 0 .4-.1.7.5l.9 2.1c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.3.6 1.1 1.3 1.8.9.8 1.7 1 2 1.2.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 1c.3.2.5.2.6.4.1.1.1.9-.1 1.6z"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="tcard rv-s" data-tilt>
+        <div class="tcard-img" style="background-image:url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80')"></div>
+        <div class="tcard-body">
+          <span>Combat &amp; Mobility</span>
+          <h3>Usman Tariq</h3>
+          <p>Pro MMA record 12-3 · Certified boxing &amp; yoga instructor.</p>
+          <div class="tcard-soc">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+            <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.4.7-.4h.5c.2 0 .4-.1.7.5l.9 2.1c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.3.6 1.1 1.3 1.8.9.8 1.7 1 2 1.2.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 1c.3.2.5.2.6.4.1.1.1.9-.1 1.6z"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="sec" id="pricing">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center;margin-inline:auto">
+      <span class="eyebrow rv" style="justify-content:center">Membership</span>
+      <h2 class="sec-title rv">Choose Your <span class="gold-text">Empire</span></h2>
+      <p class="sec-sub rv" style="margin-inline:auto">No hidden charges. No lock-in contracts. Cancel anytime. Prices in PKR.</p>
+      <div class="billing-toggle rv">
+        <button class="on" data-bill="m">Monthly</button>
+        <button data-bill="y">Yearly <span class="save-pill">SAVE 20%</span></button>
+      </div>
+    </div>
+
+    <div class="plans">
+
+      <article class="plan rv">
+        <h3>Basic</h3>
+        <p class="pdesc">Perfect for getting started.</p>
+        <div class="price">
+          <span class="cur">Rs</span>
+          <span class="amt" data-m="3,000" data-y="28,800">3,000</span>
+          <span class="per" data-m="/month" data-y="/year">/month</span>
+        </div>
+        <p class="price-note" data-m="Billed monthly" data-y="Billed annually · Save Rs 7,200">Billed monthly</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Full gym floor access</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Cardio theatre access</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Locker &amp; shower</li>
+          <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg> Group classes</li>
+          <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg> Sauna &amp; recovery spa</li>
+          <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg> Personal trainer</li>
+        </ul>
+        <a href="#join" class="btn btn-ghost btn-block" data-plan="basic" data-cursor>Choose Basic</a>
+      </article>
+
+      <article class="plan featured rv">
+        <span class="plan-badge">Most Popular</span>
+        <h3>Pro</h3>
+        <p class="pdesc">Everything you need to transform.</p>
+        <div class="price">
+          <span class="cur">Rs</span>
+          <span class="amt" data-m="5,500" data-y="52,800">5,500</span>
+          <span class="per" data-m="/month" data-y="/year">/month</span>
+        </div>
+        <p class="price-note" data-m="Billed monthly" data-y="Billed annually · Save Rs 13,200">Billed monthly</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Everything in Basic</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Unlimited group classes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Sauna, steam &amp; ice bath</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Monthly InBody scan</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Nutrition plan</li>
+          <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg> 1-on-1 personal trainer</li>
+        </ul>
+        <a href="#join" class="btn btn-gold btn-block" data-plan="pro" data-cursor>Choose Pro</a>
+      </article>
+
+      <article class="plan rv">
+        <h3>Elite</h3>
+        <p class="pdesc">The full VIP experience.</p>
+        <div class="price">
+          <span class="cur">Rs</span>
+          <span class="amt" data-m="9,500" data-y="91,200">9,500</span>
+          <span class="per" data-m="/month" data-y="/year">/month</span>
+        </div>
+        <p class="price-note" data-m="Billed monthly" data-y="Billed annually · Save Rs 22,800">Billed monthly</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Everything in Pro</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> 8 personal training sessions</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Weekly physiotherapy</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Private locker &amp; towel service</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> Guest passes (4/month)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg> 24/7 priority support</li>
+        </ul>
+        <a href="#join" class="btn btn-ghost btn-block" data-plan="elite" data-cursor>Choose Elite</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOIN / ADMISSION + PAYMENT ============ -->
+<section class="sec" id="join">
+  <div class="wrap">
+    <div class="join-wrap">
+      <div class="join-grid">
+
+        <div class="join-info">
+          <span class="eyebrow">Online Admission</span>
+          <h3>Join In <span class="serif-it gold-text">60 Seconds</span></h3>
+          <p>Fill the form, choose your plan and pay securely online. Your digital membership card arrives on WhatsApp &amp; email instantly.</p>
+
+          <div class="info-row">
+            <div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1116 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><b>Flagship Location</b><span>Plot 42, Main Boulevard, Gulberg III, Lahore</span></div>
+          </div>
+          <div class="info-row">
+            <div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.9.6 2.9.7a2 2 0 011.7 2z"/></svg></div>
+            <div><b>Call / WhatsApp</b><span><a href="tel:+923001234567">+92 300 123 4567</a></span></div>
+          </div>
+          <div class="info-row">
+            <div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 7l10 6 10-6"/></svg></div>
+            <div><b>Email Us</b><span><a href="mailto:join@ironempire.pk">join@ironempire.pk</a></span></div>
+          </div>
+          <div class="info-row">
+            <div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+            <div><b>Opening Hours</b><span>Open 24 hours · 7 days a week · 365 days</span></div>
+          </div>
+
+          <div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap">
+            <a href="https://wa.me/923001234567?text=Hi%20Iron%20Empire!%20I%20want%20to%20join." target="_blank" rel="noopener" class="btn btn-gold btn-sm" data-cursor>Chat on WhatsApp</a>
+            <a href="tel:+923001234567" class="btn btn-ghost btn-sm" data-cursor>Call Now</a>
+          </div>
+        </div>
+
+        <div class="join-form">
+          <div class="steps-bar">
+            <div class="step-dot active" data-step="1"><i></i></div>
+            <div class="step-dot" data-step="2"><i></i></div>
+            <div class="step-dot" data-step="3"><i></i></div>
+          </div>
+          <div class="step-label" id="stepLabel">Step 1 of 3 — Personal Details</div>
+
+          <form id="joinForm" novalidate>
+
+            <!-- STEP 1 -->
+            <div class="form-step on" data-step="1">
+              <div class="fgrid">
+                <div class="field">
+                  <label for="fname">Full Name *</label>
+                  <input type="text" id="fname" name="fname" placeholder="e.g. Ahmed Ali" required>
+                  <span class="err-msg">Please enter your full name</span>
+                </div>
+                <div class="field">
+                  <label for="femail">Email *</label>
+                  <input type="email" id="femail" name="femail" placeholder="you@example.com" required>
+                  <span class="err-msg">Please enter a valid email</span>
+                </div>
+                <div class="field">
+                  <label for="fphone">Phone / WhatsApp *</label>
+                  <input type="tel" id="fphone" name="fphone" placeholder="+92 3XX XXXXXXX" required>
+                  <span class="err-msg">Please enter your phone number</span>
+                </div>
+                <div class="field">
+                  <label for="fgender">Gender</label>
+                  <select id="fgender" name="fgender">
+                    <option value="">Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="fdob">Date of Birth</label>
+                  <input type="date" id="fdob" name="fdob">
+                </div>
+                <div class="field">
+                  <label for="fcity">City</label>
+                  <select id="fcity" name="fcity">
+                    <option>Lahore</option>
+                    <option>Karachi</option>
+                    <option>Islamabad</option>
+                    <option>Rawalpindi</option>
+                    <option>Faisalabad</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label for="faddr">Address</label>
+                  <input type="text" id="faddr" name="faddr" placeholder="House / Street / Area">
+                </div>
+              </div>
+              <div class="form-nav">
+                <button type="button" class="btn btn-gold btn-block" data-next="2" data-cursor>Continue</button>
+              </div>
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="form-step" data-step="2">
+              <label style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;display:block;margin-bottom:12px">Select Your Plan *</label>
+              <div class="plan-picker" id="planPicker">
+                <button type="button" class="pp sel" data-plan="basic" data-price-m="3000" data-price-y="28800">
+                  <i></i><b>Basic</b><span class="pp-price">Rs 3,000/mo</span>
+                </button>
+                <button type="button" class="pp" data-plan="pro" data-price-m="5500" data-price-y="52800">
+                  <i></i><b>Pro</b><span class="pp-price">Rs 5,500/mo</span>
+                </button>
+                <button type="button" class="pp" data-plan="elite" data-price-m="9500" data-price-y="91200">
+                  <i></i><b>Elite</b><span class="pp-price">Rs 9,500/mo</span>
+                </button>
+              </div>
+
+              <div class="fgrid">
+                <div class="field">
+                  <label for="fstart">Preferred Start Date</label>
+                  <input type="date" id="fstart" name="fstart">
+                </div>
+                <div class="field">
+                  <label for="ftrainer">Trainer Preference</label>
+                  <select id="ftrainer" name="ftrainer">
+                    <option>No preference</option>
+                    <option>Bilal Ahmed — Strength</option>
+                    <option>Ayesha Khan — HIIT</option>
+                    <option>Hamza Raza — Bodybuilding</option>
+                    <option>Usman Tariq — Combat</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label for="fgoal">Your Main Goal</label>
+                  <select id="fgoal" name="fgoal">
+                    <option>Fat loss</option>
+                    <option>Muscle gain</option>
+                    <option>Strength &amp; power</option>
+                    <option>General fitness</option>
+                    <option>Competition prep</option>
+                    <option>Rehab / mobility</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label for="fnote">Medical Conditions / Notes (optional)</label>
+                  <textarea id="fnote" name="fnote" placeholder="Anything our coaches should know?"></textarea>
+                </div>
+              </div>
+
+              <div class="form-nav">
+                <button type="button" class="btn btn-ghost" data-prev="1" data-cursor>Back</button>
+                <button type="button" class="btn btn-gold" data-next="3" data-cursor>Continue to Payment</button>
+              </div>
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="form-step" data-step="3">
+              <div class="summary" id="summary">
+                <div class="summary-row"><span>Plan</span><span id="sumPlan">Basic</span></div>
+                <div class="summary-row"><span>Billing</span><span id="sumBill">Monthly</span></div>
+                <div class="summary-row"><span>Membership</span><span id="sumPrice">Rs 3,000</span></div>
+                <div class="summary-row"><span>Admission Fee (one-time)</span><span>Rs 2,000</span></div>
+                <div class="summary-row total"><span>Total Payable</span><span id="sumTotal">Rs 5,000</span></div>
+              </div>
+
+              <label style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;display:block;margin-bottom:12px">Payment Method *</label>
+              <div class="pay-tabs" id="payTabs">
+                <button type="button" class="pt sel" data-pay="card">💳 Card</button>
+                <button type="button" class="pt" data-pay="jazz">📱 JazzCash</button>
+                <button type="button" class="pt" data-pay="easy">📲 EasyPaisa</button>
+                <button type="button" class="pt" data-pay="bank">🏦 Bank</button>
+              </div>
+
+              <!-- Card -->
+              <div class="pay-panel on" data-panel="card">
+                <div class="field">
+                  <label for="cnum">Card Number</label>
+                  <input type="text" id="cnum" inputmode="numeric" placeholder="4242 4242 4242 4242" maxlength="19">
+                </div>
+                <div class="fgrid">
+                  <div class="field">
+                    <label for="cexp">Expiry</label>
+                    <input type="text" id="cexp" placeholder="MM/YY" maxlength="5">
+                  </div>
+                  <div class="field">
+                    <label for="ccvv">CVV</label>
+                    <input type="text" id="ccvv" placeholder="123" maxlength="4">
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" placeholder="AHMED ALI">
+                </div>
+              </div>
+
+              <!-- JazzCash -->
+              <div class="pay-panel" data-panel="jazz">
+                <div class="field">
+                  <label for="jnum">JazzCash Mobile Number</label>
+                  <input type="tel" id="jnum" placeholder="03XX XXXXXXX">
+                </div>
+                <div class="field">
+                  <label for="jpin">MPIN (demo)</label>
+                  <input type="password" id="jpin" placeholder="•••••">
+                </div>
+                <p style="font-size:12.5px;color:var(--muted)">You will receive a confirmation prompt on your mobile app.</p>
+              </div>
+
+              <!-- EasyPaisa -->
+              <div class="pay-panel" data-panel="easy">
+                <div class="field">
+                  <label for="enum">EasyPaisa Mobile Number</label>
+                  <input type="tel" id="enum" placeholder="03XX XXXXXXX">
+                </div>
+                <div class="field">
+                  <label for="epin">MPIN (demo)</label>
+                  <input type="password" id="epin" placeholder="•••••">
+                </div>
+                <p style="font-size:12.5px;color:var(--muted)">You will receive a confirmation prompt on your mobile app.</p>
+              </div>
+
+              <!-- Bank -->
+              <div class="pay-panel" data-panel="bank">
+                <div class="bank-box">
+                  <div>Bank: <b>Meezan Bank Ltd</b></div>
+                  <div>Title: <b>Iron Empire Fitness (Pvt) Ltd</b></div>
+                  <div>Account / IBAN: <b>PK36MEZN0001234567890123</b></div>
+                  <div>Branch: <b>Gulberg III, Lahore</b></div>
+                </div>
+                <div class="field" style="margin-top:16px">
+                  <label for="bref">Transaction Reference / TID</label>
+                  <input type="text" id="bref" placeholder="Enter your transfer reference">
+                </div>
+              </div>
+
+              <label style="display:flex;gap:12px;align-items:flex-start;margin-top:20px;font-size:13px;color:var(--muted);cursor:pointer">
+                <input type="checkbox" id="agree" style="width:18px;height:18px;accent-color:#d9b45b;margin-top:3px;cursor:pointer">
+                <span>I agree to the Terms of Service, Privacy Policy and the gym's code of conduct.</span>
+              </label>
+              <span class="err-msg" id="agreeErr" style="display:none;margin-top:8px">Please accept the terms to continue</span>
+
+              <div class="form-nav">
+                <button type="button" class="btn btn-ghost" data-prev="2" data-cursor>Back</button>
+                <button type="submit" class="btn btn-gold" id="payBtn" data-cursor>
+                  <span id="payBtnText">Pay Securely</span>
+                </button>
+              </div>
+              <p style="text-align:center;font-size:11.5px;color:#5f5f6a;margin-top:16px;letter-spacing:.04em">
+                🔒 256-bit SSL encrypted · Demo mode — no real charges
+              </p>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="sec" id="gallery">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow rv">Inside The Empire</span>
+      <h2 class="sec-title rv">The <span class="gold-text">Experience</span></h2>
+      <p class="sec-sub rv">Step inside. Click any image to view it in full resolution.</p>
+    </div>
+    <div class="gal" id="gal">
+      <div class="gitem" data-src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1800&q=85" style="background-image:url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=80')"><span>Main Strength Floor</span></div>
+      <div class="gitem" data-src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1800&q=85" style="background-image:url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80')"><span>Free Weights Zone</span></div>
+      <div class="gitem" data-src="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=1800&q=85" style="background-image:url('https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=800&q=80')"><span>Cardio Theatre</span></div>
+      <div class="gitem" data-src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&w=1800&q=85" style="background-image:url('https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&w=800&q=80')"><span>Functional Arena</span></div>
+      <div class="gitem" data-src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1800&q=85" style="background-image:url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=80')"><span>Yoga Studio</span></div>
+      <div class="gitem" data-src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1800&q=85" style="background-image:url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=80')"><span>Personal Training Suite</span></div>
+      <div class="gitem" data-src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1800&q=85" style="background-image:url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&q=80')"><span>Recovery Spa</span></div>
+      <div class="gitem" data-src="https://images.unsplash.com/photo-1550345332-09e3ac987658?auto=format&fit=crop&w=1800&q=85" style="background-image:url('https://images.unsplash.com/photo-1550345332-09e3ac987658?auto=format&fit=crop&w=800&q=80')"><span>Powerlifting Platforms</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center;margin-inline:auto">
+      <span class="eyebrow rv" style="justify-content:center">Real Results</span>
+      <h2 class="sec-title rv">What Members <span class="gold-text">Say</span></h2>
+    </div>
+    <div class="tst" id="tst">
+
+      <div class="tst-slide on">
+        <div class="tst-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+        </div>
+        <p>"I lost 24kg in 9 months. The coaches here don't just train you — they rebuild your entire mindset. Best decision of my life."</p>
+        <div class="tst-who">
+          <div class="tst-av" style="background-image:url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80')"></div>
+          <div><b>Fahad Iqbal</b><span>Member since 2022</span></div>
+        </div>
+      </div>
+
+      <div class="tst-slide">
+        <div class="tst-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+        </div>
+        <p>"As a woman, I've never felt safer or more respected in a gym. The female training zone and Ayesha's HIIT classes are unmatched."</p>
+        <div class="tst-who">
+          <div class="tst-av" style="background-image:url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80')"></div>
+          <div><b>Sana Malik</b><span>Member since 2023</span></div>
+        </div>
+      </div>
+
+      <div class="tst-slide">
+        <div class="tst-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 8.9H24l-7.4 5.4 2.8 8.7L12 19.6 4.6 25l2.8-8.7L0 10.9h9.1z"/></svg>
+        </div>
+        <p>"Equipment quality is better than most gyms I've trained at in Dubai. Clean, spacious, and the 24/7 access fits my crazy schedule."</p>
+        <div class="tst-who">
+          <div class="tst-av" style="background-image:url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80')"></div>
+          <div><b>Zain Chaudhry</b><span>Member since 2021</span></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="tst-nav" id="tstNav">
+      <button class="on" aria-label="Slide 1"></button>
+      <button aria-label="Slide 2"></button>
+      <button aria-label="Slide 3"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="cta-band rv-s">
+      <h2>Your Only Limit<br>Is <span class="gold-text">You</span></h2>
+      <p>Join 12,500+ members who already made the decision. First session is on us.</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+        <a href="#join" class="btn btn-gold btn-lg" data-cursor>Claim Free Trial</a>
+        <a href="https://wa.me/923001234567" target="_blank" rel="noopener" class="btn btn-ghost btn-lg" data-cursor>WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="sec" id="contact">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow rv">Get In Touch</span>
+      <h2 class="sec-title rv">Visit The <span class="gold-text">Empire</span></h2>
+      <p class="sec-sub rv">Walk in anytime. Our team is available 24/7 for tours, queries and memberships.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="cinfo rv-l">
+
+        <div class="ccard">
+          <div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1116 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><b>Address</b><span>Plot 42, Main Boulevard, Gulberg III, Lahore, Punjab 54000, Pakistan</span></div>
+        </div>
+
+        <div class="ccard">
+          <div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.9.6 2.9.7a2 2 0 011.7 2z"/></svg></div>
+          <div><b>Phone</b><a href="tel:+923001234567">+92 300 123 4567</a></div>
+        </div>
+
+        <div class="ccard">
+          <div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 7l10 6 10-6"/></svg></div>
+          <div><b>Email</b><a href="mailto:join@ironempire.pk">join@ironempire.pk</a></div>
+        </div>
+
+        <div class="ccard">
+          <div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 11.5a8.4 8.4 0 01-9 8.4 8.9 8.9 0 01-4-.9L3 21l1.9-4.9A8.4 8.4 0 0112 3.1a8.4 8.4 0 019 8.4z"/></svg></div>
+          <div><b>WhatsApp</b><a href="https://wa.me/923001234567" target="_blank" rel="noopener">+92 300 123 4567</a></div>
+        </div>
+
+        <div class="ccard">
+          <div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <div><b>Hours</b><span>Open 24 hours — 7 days a week</span></div>
+        </div>
+
+        <div style="margin-top:6px">
+          <h4 style="font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-bottom:14px;font-weight:600">Follow Us</h4>
+          <div class="socials">
+            <a href="#" aria-label="Instagram" data-cursor><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+            <a href="#" aria-label="Facebook" data-cursor><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
+            <a href="#" aria-label="YouTube" data-cursor><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.4-.4-5c-.2-.9-.9-1.6-1.8-1.8C19 5 12 5 12 5s-7 0-8.8.2c-.9.2-1.6.9-1.8 1.8C1 8.6 1 12 1 12s0 3.4.4 5c.2.9.9 1.6 1.8 1.8C5 19 12 19 12 19s7 0 8.8-.2c.9-.2 1.6-.9 1.8-1.8.4-1.6.4-5 .4-5zM10 15.5v-7l6 3.5-6 3.5z"/></svg></a>
+            <a href="https://wa.me/923001234567" target="_blank" rel="noopener" aria-label="WhatsApp" data-cursor><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.4.7-.4h.5c.2 0 .4-.1.7.5l.9 2.1c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.3.6 1.1 1.3 1.8.9.8 1.7 1 2 1.2.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 1c.3.2.5.2.6.4.1.1.1.9-.1 1.6z"/></svg></a>
+            <a href="mailto:join@ironempire.pk" aria-label="Email" data-cursor><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 7l10 6 10-6"/></svg></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="map-box rv-r">
+        <iframe
+          title="Eleven Empire Location"
+          src="https://www.google.com/maps?q=Gulberg%20III%20Lahore&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+        <div class="map-overlay">
+          <b>Iron Empire HQ</b>
+          <span>Main Boulevard, Gulberg III, Lahore · Open 24/7</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-col">
+        <a href="#home" class="logo" style="margin-bottom:20px">
+          <span class="logo-mark">IE</span>
+          <span class="logo-text">ELEVEN<em>EMPIRE</em></span>
+        </a>
+        <p>Pakistan's most luxurious fitness club. Built for those who refuse to settle. 24/7 access across 3 cities.</p>
+        <div class="socials" style="margin-top:6px">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
+          <a href="https://wa.me/923001234567" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.4.7-.4h.5c.2 0 .4-.1.7.5l.9 2.1c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.3.6 1.1 1.3 1.8.9.8 1.7 1 2 1.2.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 1c.3.2.5.2.6.4.1.1.1.9-.1 1.6z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="f-col">
+        <h4>Explore</h4>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#pricing">Membership</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+
+      <div class="f-col">
+        <h4>Support</h4>
+        <a href="#join">Online Admission</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#pricing">Pricing FAQ</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+
+      <div class="f-col">
+        <h4>Visit Us</h4>
+        <p style="margin-bottom:10px">Plot 42, Main Boulevard,<br>Gulberg III, Lahore</p>
+        <a href="tel:+923001234567">+92 300 123 4567</a>
+        <a href="mailto:join@ironempire.pk">join@ironempire.pk</a>
+        <a href="https://wa.me/923001234567" target="_blank" rel="noopener">WhatsApp Chat</a>
+      </div>
+    </div>
+
+    <div class="f-bottom">
+      <span>© <span id="year"></span> Iron Empire Fitness (Pvt) Ltd. All rights reserved.</span>
+      <span>Crafted with <span style="color:#d9b45b">♦</span> in Lahore, Pakistan</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FLOATING ============ -->
+<a class="wa-float" href="https://wa.me/923001234567?text=Hi%20Iron%20Empire!%20I%20have%20a%20question." target="_blank" rel="noopener" aria-label="WhatsApp" data-cursor>
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.4.7-.4h.5c.2 0 .4-.1.7.5l.9 2.1c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.3.6 1.1 1.3 1.8.9.8 1.7 1 2 1.2.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 1c.3.2.5.2.6.4.1.1.1.9-.1 1.6z"/></svg>
+</a>
+
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lb" id="lb">
+  <div class="lb-close" id="lbClose">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  </div>
+  <img src="" alt="Gallery image" id="lbImg">
+</div>
+
+<!-- ============ SUCCESS MODAL ============ -->
+<div class="modal" id="modal">
+  <div class="modal-card">
+
+    <!-- Close X button -->
+    <button class="modal-x" id="modalCloseX" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+
+    <!-- Glow ring with animated check -->
+    <div class="modal-check">
+      <div class="check-ring"></div>
+      <div class="check-ring check-ring-2"></div>
+      <svg class="check-svg" viewBox="0 0 52 52">
+        <circle class="check-circle-path" cx="26" cy="26" r="24" fill="none"/>
+        <path class="check-mark" fill="none" d="M14 27l8 8 16-16"/>
+      </svg>
+    </div>
+
+    <!-- Headings -->
+    <span class="modal-eyebrow">Membership Confirmed</span>
+    <h3 class="modal-title">Welcome To<br><span class="gold-text">The Empire</span></h3>
+
+    <p class="modal-desc">
+      Your membership is now active. Your digital membership card and QR entry pass have been sent to your WhatsApp and email.
+    </p>
+
+    <!-- Member card preview -->
+    <div class="member-card">
+      <div class="mc-top">
+        <div class="mc-logo">
+          <span class="mc-mark">EE</span>
+          <span class="mc-name">ELEVEN EMPIRE</span>
+        </div>
+        <span class="mc-badge">MEMBER</span>
+      </div>
+
+      <div class="mc-mid">
+        <div class="mc-row">
+          <span class="mc-label">Reference</span>
+          <span class="mc-value" id="refCode">EE-000000</span>
+        </div>
+        <div class="mc-row">
+          <span class="mc-label">Plan</span>
+          <span class="mc-value" id="modalPlan">Basic — Monthly</span>
+        </div>
+        <div class="mc-row">
+          <span class="mc-label">Member</span>
+          <span class="mc-value" id="modalName">—</span>
+        </div>
+      </div>
+
+      <div class="mc-bottom">
+        <div class="mc-dots">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <span class="mc-hint">Scan at entrance</span>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="modal-actions">
+      <a href="https://wa.me/923001234567" target="_blank" rel="noopener" class="btn btn-gold btn-block">
+        <svg viewBox="0 0 24 24" fill="currentColor" style="width:17px;height:17px">
+          <path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.4.7-.4h.5c.2 0 .4-.1.7.5l.9 2.1c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.3.6 1.1 1.3 1.8.9.8 1.7 1 2 1.2.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 1c.3.2.5.2.6.4.1.1.1.9-.1 1.6z"/>
+        </svg>
+        Open WhatsApp
+      </a>
+      <button class="btn btn-ghost btn-block" id="modalClose">Done</button>
+    </div>
+
+    <p class="modal-foot">A confirmation email is on its way · Ref <span id="modalRefSmall">IE-000000</span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
